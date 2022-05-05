@@ -1,11 +1,22 @@
-OroCommerce Sample Application
+OroCommerce Sample Application with React integration
 ==============================
 
-What is OroCommerce?
+React integration
 --------------------
 
-OroCommerce is an open-source Business to Business Commerce application built with flexibility in mind. It can be customized and extended to fit any B2B commerce needs.
-You can find out more about OroCommerce at [www.orocommerce.com](https://www.orocommerce.com/).
+![Oro with React](./src/Webinar/Bundle/ReactBundle/Resources/public/img/oro-react.gif)
+
+*Please note that this is a PoC (proof of concept) and should not be used in production.*
+
+This OroCommerce installation supports integration with React and TailwindCSS.
+
+More information can be found [here](https://doc.oroinc.com/frontend/javascript/frameworks-integration/react-integration/#dev-doc-react-integration).
+
+Known issues
+------------------
+
+Assets build might fail due to `skipBabel` option which is by default set to true. In order to fix it, make sure to run:
+`bin/console oro:assets:build --env=prod --with-babel`
 
 System Requirements
 -------------------
