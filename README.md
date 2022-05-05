@@ -12,12 +12,6 @@ This OroCommerce installation supports integration with React and TailwindCSS.
 
 More information can be found [here](https://doc.oroinc.com/frontend/javascript/frameworks-integration/react-integration/#dev-doc-react-integration).
 
-Known issues
-------------------
-
-Assets build might fail due to `skipBabel` option which is by default set to true. In order to fix it, make sure to run:
-`bin/console oro:assets:build --env=prod --with-babel`
-
 System Requirements
 -------------------
 
